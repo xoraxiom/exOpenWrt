@@ -12,7 +12,7 @@ PKG_VERSION:=0.4.2
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:https://download.libsodium.org/libsodium/releases/
+PKG_SOURCE_URL:=https://download.libsodium.org/libsodium/releases/
 PKG_MD5SUM:=9d25f083c957c690c01e0bf4a89cea25
 
 PKG_INSTALL:=1
