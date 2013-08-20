@@ -9,14 +9,12 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=dnscrypt-proxy
 PKG_VERSION:=1.3.2
-PKG_RELEASE:=3
+PKG_RELEASE:=1.E
 PKG_REV:=$(PKG_VERSION)
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=git://github.com/opendns/dnscrypt-proxy.git
-PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_VERSION:=$(PKG_REV)
-PKG_SOURCE_PROTO:=git
+PKG_SOURCE_URL:=http://download.dnscrypt.org/dnscrypt-proxy/
+PKG_MD5SUM:=18452e3d28ff9535013eede1da62df65
 
 PKG_INSTALL:=1
 PKG_FIXUP:=autoreconf
@@ -27,6 +25,7 @@ define Package/dnscrypt-proxy/Default
   SECTION:=net
   CATEGORY:=Network
   SUBMENU:=IP Addresses and Names
+  DEPENDS:=+libsodium
   URL:=https://github.com/opendns/dnscrypt-proxy
   MAINTAINER:=Black Roland https://forum.openwrt.org/profile.php?id=82621
 endef
