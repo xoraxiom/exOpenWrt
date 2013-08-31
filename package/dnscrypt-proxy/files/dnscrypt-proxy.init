@@ -22,4 +22,3 @@ start() {
 stop() {
 	service_stop /usr/sbin/dnscrypt-proxy
 }
-
