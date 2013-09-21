@@ -1,5 +1,4 @@
 #
-# Copyright (C) 2011-2013 Entware
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
@@ -24,7 +23,6 @@ define Package/libsodium
 	CATEGORY:=Libraries
 	TITLE:=library for network communication, encryption, decryption, etc
 	URL:=https://github.com/jedisct1/libsodium
-	MAINTAINER:=Black Roland https://forum.openwrt.org/profile.php?id=82621
 endef
 
 define Package/libsodium/description
