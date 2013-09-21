@@ -27,6 +27,7 @@ define Package/dnscrypt-proxy/Default
   SUBMENU:=IP Addresses and Names
   DEPENDS:=+libsodium
   URL:=https://github.com/opendns/dnscrypt-proxy
+  MAINTAINER:=xoraxiom
 endef
 
 define Package/dnscrypt-proxy
