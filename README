@@ -1,0 +1,10 @@
+#
+#
+#
+
+Use the script compile_dnscrypt-proxy to build libsodium and dnscrypt-proxy packages for OpenWRT, then
+copy them to an attached router for manual install via ssh. (...inelegant, but functional)
+
+#
+#
+#
